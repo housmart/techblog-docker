@@ -9,3 +9,4 @@ RUN tar -xf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 RUN mv hugo /usr/local/bin
 ENV TZ Asia/Tokyo
 
+WORKDIR /techblog
